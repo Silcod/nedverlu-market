@@ -29,7 +29,7 @@ SECRET_KEY = 'a3m10_*vz&ud=#gn3wr&hp^_@3*q+^33t8y*ffeswh6pioq02@'
 #PRODUCTION_SECRET_KEY = os.environ.get('NEDVERLU_PROSK')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = (os.environ.get('DEBUG_VALUE') == 'True')
 
 ALLOWED_HOSTS = ['nedverlu.herokuapp.com']
 
@@ -161,6 +161,7 @@ LOGIN_REDIRECT_URL = '/'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
+# PAYSTACK
 PAYSTACK_PUBLIC_KEY = 'pk_test_a88bd301e6d9dd8c3b2a943a4f2170e498697eb0'
 PAYSTACK_SECRET_KEY = 'sk_test_916f92df517dc912892b3c7cf938ef878650413f'
 # PAYSTACK_FAILED_URL = "/google/api"
@@ -168,11 +169,16 @@ PAYSTACK_SECRET_KEY = 'sk_test_916f92df517dc912892b3c7cf938ef878650413f'
 PAYSTACK_WEBHOOK_DOMAIN = 'tuteria.ngrok.io'
 
 #Email Config
-EMAIL_HOST = 'localhost'
-EMAIL_PORT = 1025
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend’'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_USE_TLS = True
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'ibrahimsanusiwizy@gmail.com'
+EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_HOST_PASSWORD")
 
 #For Contact Us
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+#EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # For django allauth
 ACCOUNT_EMAIL_REQUIRED = True
