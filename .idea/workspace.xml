@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0feb46b0-d91c-4f4d-bfe5-28344c3f3d6a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/nedverlu_market/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/nedverlu_market/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/main/vendors/owl-carousel/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/main/vendors/owl-carousel/owl.carousel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/main/vendors/owl-carousel/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/main/vendors/owl-carousel/owl.carousel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/staticfiles.json" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/staticfiles.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nedverlu_market/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="221">
+              <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
               <folding>
                 <element signature="e#316#325#0" expanded="true" />
               </folding>
@@ -611,8 +608,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nedverlu_market/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="221">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
           <folding>
             <element signature="e#316#325#0" expanded="true" />
           </folding>
