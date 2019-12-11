@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0feb46b0-d91c-4f4d-bfe5-28344c3f3d6a" name="Default Changelist" comment="" />
+    <list default="true" id="0feb46b0-d91c-4f4d-bfe5-28344c3f3d6a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/nedverlu_market/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/nedverlu_market/settings.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nedverlu_market/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="162" column="16" lean-forward="true" selection-start-line="162" selection-end-line="162" selection-end-column="16" />
+            <state relative-caret-position="309">
+              <caret line="165" column="34" lean-forward="true" selection-start-line="165" selection-start-column="34" selection-end-line="165" selection-end-column="34" />
               <folding>
                 <element signature="e#1#10#0" expanded="true" />
               </folding>
@@ -143,7 +145,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="width" value="741" />
     <option name="height" value="775" />
@@ -609,8 +611,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nedverlu_market/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="162" column="16" lean-forward="true" selection-start-line="162" selection-end-line="162" selection-end-column="16" />
+        <state relative-caret-position="309">
+          <caret line="165" column="34" lean-forward="true" selection-start-line="165" selection-start-column="34" selection-end-line="165" selection-end-column="34" />
           <folding>
             <element signature="e#1#10#0" expanded="true" />
           </folding>
