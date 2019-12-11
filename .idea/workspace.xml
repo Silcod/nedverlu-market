@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0feb46b0-d91c-4f4d-bfe5-28344c3f3d6a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/nedverlu_market/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/nedverlu_market/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="0feb46b0-d91c-4f4d-bfe5-28344c3f3d6a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +214,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19894099" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
