@@ -8,7 +8,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ['NEDVERLU_SK']
+SECRET_KEY = 'a3m10_*vz&ud=#gn3wr&hp^_@3*q+^33t8y*ffeswh6pioq02@'
 
 #PRODUCTION_SECRET_KEY = os.environ.get('NEDVERLU_PROSK')
 
