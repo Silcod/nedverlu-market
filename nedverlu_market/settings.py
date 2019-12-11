@@ -32,7 +32,7 @@ SECRET_KEY = 'a3m10_*vz&ud=#gn3wr&hp^_@3*q+^33t8y*ffeswh6pioq02@'
 DEBUG = (os.environ.get('DEBUG_VALUE') == "True")
 
 
-ALLOWED_HOSTS = ['nedverlu.herokuapp.com']
+ALLOWED_HOSTS = ['nedverlu.herokuapp.com',]
 
 
 # Application definition
