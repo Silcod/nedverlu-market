@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'crispy_forms',
     'django_countries',
-    'paystack',
+    #'paystack',
     'django_paystack',
     'core',
 ]
@@ -162,8 +162,7 @@ PAYSTACK_WEBHOOK_DOMAIN = 'tuteria.ngrok.io'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'ibrahimsanusiwizy@gmail.com'
-#EMAIL_HOST_PASSWORD = os.environ['EMAIL_HOST_PASSWORD']
-EMAIL_HOST_PASSWORD = 'Sanusi360@'
+EMAIL_HOST_PASSWORD = os.environ['EMAIL_HOST_PASSWORD']
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_USE_TLS = True
 
@@ -180,5 +179,6 @@ ACCOUNT_AUTHENTICATION_METHOD = 'email'
 ACCOUNT_UNIQUE_EMAIL = True
 # ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
 
+# For Heroku
 django_heroku.settings(locals())
 
