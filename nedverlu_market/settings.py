@@ -13,7 +13,7 @@ SECRET_KEY = 'a3m10_*vz&ud=#gn3wr&hp^_@3*q+^33t8y*ffeswh6pioq02@'
 #PRODUCTION_SECRET_KEY = os.environ.get('NEDVERLU_PROSK')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 
 ALLOWED_HOSTS = ['*']
