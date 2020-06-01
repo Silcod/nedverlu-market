@@ -14,12 +14,12 @@ SECRET_KEY = 'a3m10_*vz&ud=#gn3wr&hp^_@3*q+^33t8y*ffeswh6pioq02@'
 #PRODUCTION_SECRET_KEY = os.environ.get('NEDVERLU_PROSK')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-DEBUG_PROPAGATE_EXCEPTIONS = True
+DEBUG = True
+#DEBUG_PROPAGATE_EXCEPTIONS = True
 
 ALLOWED_HOSTS = ['*']
 
-CSRF_COOKIE_SECURE = True
+#CSRF_COOKIE_SECURE = True
 #SESSION_COOKIE_SECURE = True # This makes it unable to login in localhost
 CONN_MAX_AGE = None
 X_FRAME_OPTIONS = 'DENY'
@@ -205,7 +205,6 @@ SITE_ID = 1
 LOGIN_REDIRECT_URL = '/'
 
 # CRISPY FORMS
-
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 # PAYSTACK
